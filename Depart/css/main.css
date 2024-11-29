@@ -1,0 +1,64 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+    padding-top: 50px;
+
+    /* background-color: black;
+    background-image: url("../images/background02.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+}
+
+#containeur_principal {
+    text-align: center;
+    padding: 20px;
+    width: 400px;
+    height: 100%;
+    border:0;
+    border-radius:10px;
+    box-shadow:0 0 15px 4px rgba(56, 56, 56, 0.4);
+    background-color: rgba(255,255,255,0.8);
+
+    
+}
+
+#description_question {
+    text-align: justify;
+}
+
+#validation_reponse {
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.bouton {
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    transition: 200ms;
+}
+
+.bouton_choix {
+    background-color: lightblue;
+}
+
+#triche {
+    margin-top: 10px;
+    background-color: rgb(250, 53, 93);
+}
+
+.hidden {
+    display: none !important;
+}
